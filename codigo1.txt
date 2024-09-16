@@ -1,0 +1,12 @@
+# if else na Linguagem R 
+
+x = sample(6,1) 
+
+if ( (x %% 2) == 0) {
+
+    print(paste(x, "é par"))
+    
+} else {
+
+    print(paste(x, "é ímpar"))
+}
